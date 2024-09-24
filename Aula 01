@@ -1,0 +1,35 @@
+String nome = "Carol";
+int num1 = 2;
+int num2 = 2;
+int total = num1 + num2;
+System.out.println(total);
+int num3 = 12;
+System.out.println(total + num3);
+System.out.println("Meu nome e: " + nome +"," + "Meu numero e: "+ total);
+
+
+// 1)  •Faça
+// um algoritmo que receba o salário-base de um funcionário. Sabendo-se que esse
+// funcionário tem gratificação de 5% sobre o salário-base e paga imposto de 7%
+// sobre o total.
+
+double sb=1600;
+        double grat=sb *0.05;
+        double  inpo= sb * 0.07;
+        double valor= sb+grat-inpo;
+        System.out.println(valor);
+
+
+// 2) •Sabendo
+// que o lucro anual de uma empresa é, tipicamente, 23% do total de vendas, crie
+// um algoritmo que solicite ao usuário entre com o valor
+// projetado do total de vendas e, em seguida, calcule e exiba o lucro que deve
+// ser obtido com esse valor.
+        
+// •Lembrete:
+// 23% = 23\100 = 0,23   
+
+double vendas = 500;
+        double lucro = 0.23;
+        double total = vendas * lucro;
+        System.out.println(total);
