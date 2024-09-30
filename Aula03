@@ -1,0 +1,135 @@
+1) 		int num1 = 5;
+			int num2 = 9;
+			int num3 = 6;
+			int num4 = 7;
+			
+			int total = num1+num2+num3+num4/4;
+			
+			
+			if (total >= 6) {
+				System.out.println("O aluno está aprovado");
+			} else {
+				System.out.println("O aluno está reprovado");
+			}
+
+			System.out.println("A média do aluno é: " + total);
+
+
+
+2) 	int valor1 = 2024;
+		int valor2;
+		
+		Scanner tec = new Scanner (System.in);
+		System.out.println("Entre com o seu ano de nascimento:");
+		valor2 = tec.nextInt();
+
+		int total = valor1 - valor2;
+		
+		
+		if (total >= 16) {
+			System.out.println("Você pode votar");
+		}
+		else {
+			System.out.println("Você não pode votar");
+		}
+		
+
+3)  int num1;
+		int num2;
+		int num3;
+		int num4;
+		
+        Scanner tec = new Scanner (System.in);
+		
+		System.out.println("Entre com a sua nota:");
+		num1 = tec.nextInt();
+		num2 = tec.nextInt();
+		num3 = tec.nextInt();
+		num4 = tec.nextInt();
+		
+		
+		int total = num1+num2+num3+num4/4;
+		System.out.println("Sua média é: " +total);
+
+
+4)    System.out.println("Vamos calcular, entre com o número em metros:");
+		  int num1;
+		 
+	    Scanner tec = new Scanner (System.in);
+			num1 = tec.nextInt();
+			int total = num1 * 10 * 10;
+			
+			System.out.println("Em centímetros fica: " +total);
+
+
+5)    Scanner tec = new Scanner (System.in);
+		  int num1;
+		  int num2;
+		  System.out.println("Informe quanto você ganha por hora: ");
+		  num1 = tec.nextInt();
+		
+		  System.out.println("Informe o número de horas trabalhadas no mês: ");
+		  num2 = tec.nextInt();
+		  
+		  int total = num1*num2;
+		
+		  System.out.println("O seu salário total no mês é: " + total);
+
+
+6) int max = 80;
+   int bolsa;
+
+   Scanner tec = new Scanner (System.in);
+   System.out.print("Qual o valor da bolsa?");
+   bolsa =  tec.nextInt();
+		       
+   if (bolsa <= max ) {
+	 System.out.println("está dentro do orçamento");
+}
+
+else {
+	System.out.println("não está no orçamento");
+}		        
+
+
+7) 	System.out.print("Ente com dois números");	
+		
+		int num1;
+		int num2;
+		Scanner tec = new Scanner (System.in);
+			num1 = tec.nextInt();
+			num2 = tec.nextInt();
+
+	if (num1 > num2) {
+		System.out.print("O primeiro numero é maior que o segundo ");
+	}
+	else {
+    System.out.print("Osegundo numero é maior que o primeiro ");
+	}
+
+
+
+8) 	System.out.print("Ente com dois números");	
+		
+		int num1;
+		int num2;
+		Scanner tec = new Scanner (System.in);
+			num1 = tec.nextInt();
+			num2 = tec.nextInt();
+
+if (num1 < 0) {
+	System.out.print("O primeiro numero é negativo e ");
+}
+else {
+	System.out.print("O primeiro numero é positivo e ");
+}
+
+if (num2 < 0) {
+	System.out.print("o segundo numero é negativo");
+}
+else {
+	System.out.print("o segundo numero é positivo");
+}
+
+
+9) 
