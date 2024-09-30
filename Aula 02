@@ -106,7 +106,7 @@ public static void main(String[] args) {
 			double med = (qua_max + qua_min)/2;
 			System.out.println("O estoque médio é: " + med);
 			
-		
+	
 
 6)                      Scanner tec = new Scanner(System.in);
 			int v1, v2;
