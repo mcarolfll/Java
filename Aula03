@@ -132,4 +132,17 @@ else {
 }
 
 
-9) 
+9) 		 System.out.println("entre com salário base:");
+		  Scanner tec = new Scanner (System.in);
+		  int sb;
+		  sb = tec.nextInt();
+		  
+        double grat=sb *0.08;
+        double  inpo= sb * 0.11;
+        double valor= sb+grat-inpo;
+        System.out.println("valor final:");
+        System.out.println(valor);
+
+
+
+10)  
