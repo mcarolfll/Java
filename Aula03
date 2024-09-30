@@ -169,4 +169,25 @@ else {
 		System.out.println("Sua entrada foi negada");
 	}		
 	
-11) 
+11)     String nome;
+        String sobrenome;
+        Double salario = null;
+        Double valorpestação = null;
+
+        System.out.println("+++++++++EMPRESTIMO BANCARIO+++++++" );
+        System.out.print("INSIRA O SEU NOME:  " );
+        nome = scanner.nextLine();
+        System.out.print("INSIRA O SEU SOBRENOME: " );
+        sobrenome = scanner.nextLine();
+        System.out.print("INSIRA O SEU SALARIO:  R$" );
+        salario = scanner.nextDouble();
+        System.out.print("INSIRA O VALOR DA PRESTAÇÃO:  " );
+        valorprestação = scanner.nextDouble();
+
+        if (salario < valorprestação * 1.20) {
+            System.out.print("Empréstimo não pode ser concedido.");
+        } else {
+            System.out.print("Empréstimo pode ser concedido.");
+        }
+
+
