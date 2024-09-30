@@ -145,4 +145,28 @@ else {
 
 
 
-10)  
+10)             int x;
+		System.out.println("Coloque seu ano de nascimento");
+		Scanner tec = new Scanner(System.in);
+		x = tec.nextInt();
+		
+		
+		int ano = 2024;
+		
+		String y;
+		System.out.print("Coloque seu nome");	
+	Scanner tec1 = new Scanner(System.in);
+	y = tec1.nextLine();
+	System.out.println();
+		
+	int idade = ano - x;
+	System.out.println("Sua idade é:" + idade);
+	System.out.println();
+	
+	if (idade >= 18) {
+		System.out.println("Sua entrada foi permitida");
+	} else {
+		System.out.println("Sua entrada foi negada");
+	}		
+	
+11) 
