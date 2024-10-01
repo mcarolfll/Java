@@ -191,3 +191,24 @@ else {
         }
 
 
+
+12) double horast;
+    double horastt=160;
+    double gph;
+    double horax;
+    double extra= 0.5;
+    double calculo;
+    double calculo2;
+  System.out.println("coloque suas horas trabalhadas NO MÊS");
+      horast=tec.nextInt();
+    System.out.println("coloque seu ganho por hora");
+    gph=tec.nextInt();
+    horax=gph* 0.5;
+    calculo2=horast*horax;
+    calculo=horast*gph;
+    if (horast<=horastt) {
+      System.out.println("seu salário é");
+      System.out.println(calculo);  
+} else {
+      System.out.println(calculo2);
+}
