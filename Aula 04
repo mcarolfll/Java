@@ -77,4 +77,14 @@ public void Entrar(){}
        System.out.println("Em centímetros fica: " +media);
 	   } 
 
-5) 
+5)  public void Media() {
+    double num1, num2;
+    System.out.println("Informe quanto você ganha por hora: ");
+    num1 = tec.nextInt();
+    System.out.println("Informe o número de horas trabalhadas no mês: ");
+    num2 = tec.nextInt();
+    double total = num1*num2;
+    System.out.println("O seu salário total no mês é: " + total);
+} 
+
+6)  
