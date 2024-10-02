@@ -3,3 +3,78 @@ public void Entrar(){}
 // void = sem retorno
 // Entrar = verbo de conexão
 
+-----------------ATIVIDADE--------------------------
+
+1)      public void Media() {
+       double n1, n2, media1;
+       System.out.println("Entre com N1");
+       n1 = tec.nextDouble();
+       System.out.println("Entre com N2");
+       n2 = tec.nextDouble();
+       media1 = (n1+n2)/2;
+       System.out.println("---------");
+       System.out.println(media1);
+       System.out.println("---------");
+       if (media1 > 7) {
+           System.out.println("Aprovado");
+           Media4();
+       } else {
+           
+           System.out.println("Reprovado");
+       }
+       
+   } 
+
+
+2)    public void Media() {
+       double nasc, atual, total;
+       System.out.println("entre com ano de nascimento");
+       nasc = tec.nextDouble();
+       System.out.println("entre com ano atual");
+       atual = tec.nextDouble();
+       total = (atual-nasc);
+       System.out.println("---------");
+       System.out.println(total);
+       System.out.println("---------");
+       if (total >= 16) {
+           System.out.println("pode votar");
+           
+       } else {
+           
+           System.out.println("não pode votar");
+       }
+       
+   }
+
+3) 	   public void Media() {
+	       double n1, n2, n3, n4, media;
+	       System.out.println("Entre com nota 1");
+	       n1 = tec.nextDouble();
+	       System.out.println("Entre com nota 2");
+	       n2 = tec.nextDouble();
+	       System.out.println("Entre com nota 3");
+	       n3 = tec.nextDouble();
+	       System.out.println("Entre com nota 4");
+	       n4 = tec.nextDouble();
+	       media = (n1+n2+n3+n4)/4;
+	       System.out.println("---------");
+	       System.out.println(media);
+	       System.out.println("---------");
+	       if (media > 7) {
+	           System.out.println("Aprovado");
+	       } else {
+	           
+	           System.out.println("Reprovado");
+	       }
+	       
+	   } 
+
+4) 	   public void Media() {
+	     double num1, media;
+	     System.out.println("Vamos calcular, entre com o número em metros:");
+       num1 = tec.nextInt();
+		   media = num1 * 10 * 10;
+       System.out.println("Em centímetros fica: " +media);
+	   } 
+
+5) 
