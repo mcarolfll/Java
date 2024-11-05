@@ -1,0 +1,61 @@
+package ContaBancária;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String nome;
+		int saldo = 0;
+		int alternativa = 0;
+		int valor1 = 0;
+		int valor2 = 0;
+			
+		Scanner tec = new Scanner (System.in);
+		
+		System.out.println("Informe seu nome: ");
+		nome = tec.nextLine();
+		System.out.println("Informe seu saldo atual: ");
+		saldo = tec.nextInt();
+		
+		System.out.println("1- Adicionar valor /n 2- Subtrair valor /n 3- Saldo atual /n 4- Encerrar procedimento");
+		alternativa = tec.nextInt();
+		
+		if(alternativa == 1) {
+			System.out.println("Quanto quer adicionar?/n 1- 100 /n 2- 200 /n 3- 300");
+			valor1 = tec.nextInt();
+			if(valor1 == 1) {
+				saldo += 100;
+				System.out.println("Seu saldo atual e: "+saldo);
+			}else if (valor1 == 2) {
+				saldo += 200;
+				System.out.println("Seu saldo atual e: "+saldo);
+			}else if (valor1 == 3) {
+				saldo += 300;
+				System.out.println("Seu saldo atual e: "+saldo);
+			}else {
+				System.out.println("Informe um valor valido");
+			}
+				
+		}else if (alternativa == 2){
+			System.out.println("Quanto quer subtrair?/n 1- 100 /n 2- 200 /n 3- 300");
+			valor2 = tec.nextInt();
+			if(valor2 == 1) {
+				saldo -= 100;
+				System.out.println("Seu saldo atual e: "+saldo);
+			}else if (valor2 == 2) {
+				saldo -= 200;
+				System.out.println("Seu saldo atual e: "+saldo);
+			}else if (valor2 == 3) {
+				saldo -= 300;
+				System.out.println("Seu saldo atual e: "+saldo);
+			}else {
+				System.out.println("Informe um valor valido");
+			}
+		}else if (alternativa == 3) {
+			System.out.println("Seu saldo atual e: "+saldo);
+		}else if (alternativa == 4) {
+			System.out.println("Procedimento encerrado");
+		}else {
+			System.out.println("Digite um valor valido");
+		}
