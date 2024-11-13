@@ -1,8 +1,8 @@
 package contabancaria;
 import java.util.Scanner;
-public class Main{
+public class Main extends Pessoa{
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		
 		
 		String nome;
@@ -84,4 +84,114 @@ public class Main{
 			System.out.println("Digite um valor valido");
 		}
 	}
+}
+
+
+
+
+
+------ Física-------
+
+package contabancaria;
+import java.util.Scanner;
+public class Física extends Pessoa {
+	
+	public void cadatrar(String nome) {
+		this.nome = nome;
+	}
+	
+	
+}
+------ Pessoa-------
+
+package contabancaria;
+
+public class Pessoa {
+	
+	String nome;
+    int saldo = 0;
+	
+    public String getNome() {
+		return nome;
+	}
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+	public int getSaldo() {
+		return saldo;
+	}
+
+
+	public void setSaldo(int saldo) {
+		this.saldo = saldo;
+	}
+
+
+	public int getCpf() {
+		return cpf;
+	}
+
+
+	public void setCpf(int cpf) {
+		this.cpf = cpf;
+	}
+
+
+	public int getCnpj() {
+		return cnpj;
+	}
+
+
+	public void setCnpj(int cnpj) {
+		this.cnpj = cnpj;
+	}
+
+
+	public int getAlternativa() {
+		return alternativa;
+	}
+
+
+	public void setAlternativa(int alternativa) {
+		this.alternativa = alternativa;
+	}
+
+
+	public int getValor1() {
+		return valor1;
+	}
+
+
+	public void setValor1(int valor1) {
+		this.valor1 = valor1;
+	}
+
+
+	public int getValor2() {
+		return valor2;
+	}
+
+
+	public void setValor2(int valor2) {
+		this.valor2 = valor2;
+	}
+
+
+	int cpf = 0;
+	int cnpj = 0;
+	int alternativa = 0;
+	int valor1 = 0;
+	int valor2 = 0;
+	
+	
+	public void Cadastrar() {
+		
+		
+	}
+	
+
 }
