@@ -1,0 +1,101 @@
+package herança;
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+
+Scanner tec = new Scanner(System.in);	
+Scanner tecl = new Scanner(System.in);	
+String func;
+
+Produto1 Cel = new Produto1();
+Produto2 Sapato = new Produto2();
+Produto3 Boneca = new Produto3();
+Cel.nome = "Celular";
+Sapato.nome = "Tênis Nike Revolution 7 Feminino";
+Boneca.nome = "Boneca Barbie cozinheira";
+Cel.preco = 1500;
+Sapato.preco = 1000;
+Boneca.preco = 250;
+Cel.estoque = 7;
+Sapato.estoque = 100;
+Boneca.estoque = 12;
+Cel.code = 0;
+Sapato.code = 0;
+Boneca.code = 0;
+
+
+System.out.println("Coloque o seu nome");
+func = tecl.nextLine();
+System.out.println("Nossos produtos são: "+ Cel.nome + ", " + Poc.nome + " e " + Boneca.nome );
+System.out.println(" ");
+System.out.println("Crie um código único em 4 digitos para o Celular");
+Cel.code = tec.nextInt();
+
+System.out.println("Crie um código único em 4 digitos para o Sapato");
+Poc.code = tec.nextInt();
+
+System.out.println("Crie um código único em 4 digitos para a Boneca");
+Boneca.code = tec.nextInt();
+
+System.out.println("Detectamos que o estoque do seu"+ Cel.nome + "é:"+ Cel.estoque);
+System.out.println(" ");
+System.out.println("Detectamos que o estoque do seu"+ Sapato.nome + "é:"+ Sapato.estoque);
+System.out.println(" ");
+System.out.println("Detectamos que o estoque da sua"+ Boneca.nome + " é:"+ Boneca.estoque);
+System.out.println(" ");
+
+System.out.println("Obrigado, Quando houver uma compra, iremos lhe informar);
+}
+
+}
+
+------- Produto -------
+package herança;
+import java.util.Scanner;
+public class Produtos {
+
+   String nome;
+  int estoque;
+  double preco;
+  int code;
+
+}
+
+
+------- Produto 1 -------
+
+package herança;
+import java.util.Scanner;
+import herança.Produtos;	
+public class Produto1 extends Produtos{
+
+public static void main(String[] args) {
+
+}
+}
+
+------- Produto 2 -------
+
+package herança;
+import java.util.Scanner;
+import herança.Produtos;
+public class Produto2 extends Produtos{
+
+public static void main(String[] args) {
+
+Scanner tec = new Scanner(System.in);
+}
+}
+
+------- Produto 3 -------
+
+package herança;
+import java.util.Scanner;
+import sla.Produtos;
+public class Produto3 extends Produtos{
+
+public static void main(String[] args) {
+
+Scanner tec = new Scanner(System.in);
+}
+}
