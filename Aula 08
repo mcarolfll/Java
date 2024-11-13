@@ -37,11 +37,11 @@ Poc.code = tec.nextInt();
 System.out.println("Crie um código único em 4 digitos para a Boneca");
 Boneca.code = tec.nextInt();
 
-System.out.println("Detectamos que o estoque do seu"+ Cel.nome + "é:"+ Cel.estoque);
+System.out.println("O estoque do seu"+ Cel.nome + "é:"+ Cel.estoque);
 System.out.println(" ");
-System.out.println("Detectamos que o estoque do seu"+ Sapato.nome + "é:"+ Sapato.estoque);
+System.out.println("O estoque do seu"+ Sapato.nome + "é:"+ Sapato.estoque);
 System.out.println(" ");
-System.out.println("Detectamos que o estoque da sua"+ Boneca.nome + " é:"+ Boneca.estoque);
+System.out.println("O estoque da sua"+ Boneca.nome + " é:"+ Boneca.estoque);
 System.out.println(" ");
 
 System.out.println("Obrigado, Quando houver uma compra, iremos lhe informar);
@@ -54,10 +54,10 @@ package herança;
 import java.util.Scanner;
 public class Produtos {
 
-   String nome;
-  int estoque;
-  double preco;
-  int code;
+String nome;
+int estoque;
+double preco;
+int code;
 
 }
 
